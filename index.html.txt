@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Croffle Syndicate</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff66b2;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .menu {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #ff3399;
+            text-align: center;
+        }
+        .menu-item {
+            padding: 10px 0;
+            border-bottom: 1px solid #ff99cc;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff66b2;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .price {
+            float: right;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
+            border-bottom: 2px solid #ff3399;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Croffle Syndicate</h1>
+        <p>Carnation St. San Juan, I.C</p>
+        <p>Contact: 09944051213</p>
+    </header>
+
+    <section class="menu">
+        <h2>Menu</h2>
+
+        <div class="section-title">Croffle w/ Whip</div>
+        <div class="menu-item">
+            <strong>Hev Abi Choco</strong> <span class="price">Php 125</span>
+        </div>
+        <div class="menu-item">
+            <strong>Strobi Maloi</strong> <span class="price">Php 125</span>
+        </div>
+        <div class="menu-item">
+            <strong>O Side Matcha</strong> <span class="price">Php 135</span>
+        </div>
+        <div class="menu-item">
+            <strong>Meet the Grahams</strong> <span class="price">Php 135</span>
+        </div>
+        <div class="menu-item">
+            <strong>Nutti’ing but a “N” Thang</strong> <span class="price">Php 145</span>
+        </div>
+        <div class="menu-item">
+            <strong>Bini Biscoff</strong> <span class="price">Php 150</span>
+        </div>
+
+        <div class="section-title">Customized Croffle and Mini Croffles</div>
+        <div class="menu-item">
+            <strong>Hev Abi + Maloi</strong> <span class="price">Php 125</span>
+        </div>
+        <div class="menu-item">
+            <strong>Grahams + Matcha</strong> <span class="price">Php 135</span>
+        </div>
+        <div class="menu-item">
+            <strong>Hev Abi or Maloi + Grahams or Matcha</strong> <span class="price">Php 130</span>
+        </div>
+        <div class="menu-item">
+            <strong>Hev Abi or Maloi + Nutella</strong> <span class="price">Php 140</span>
+        </div>
+        <div class="menu-item">
+            <strong>Grahams or Matcha + Nutella</strong> <span class="price">Php 145</span>
+        </div>
+        <div class="menu-item">
+            <strong>Biscoff</strong> <span class="price">Additional Php 20</span>
+        </div>
+
+        <div class="section-title">Premium Box</div>
+        <div class="menu-item">
+            <strong>Biscoff x Nutella + 2 Flavor of Your Choice</strong>
+        </div>
+
+        <div class="section-title">Croquettes</div>
+        <div class="menu-item">
+            <strong>2 Flavored and 1 Plain</strong>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The Croffle Syndicate - Once you've tasted it, you'll always crave it.</p>
+    </footer>
+</body>
+</html>
